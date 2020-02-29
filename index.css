@@ -2,7 +2,9 @@
 
 
      margin: auto;
-     width: auto;
+     width: 100%;
+     max-width: 100%;
+     
     
 }
 
@@ -30,8 +32,8 @@
 /* NETFLIX LOGO *******************************************************************************************/
 .nfLogo .svg-icon-netflix-logo {
     padding-top: 0.7rem;
-    height: 43px;
-    width: 163px;
+    height: 132%;
+    width: 132%;
 }
 .nfLogo {
     fill: #e50914;
@@ -39,7 +41,10 @@
     z-index: 3;
     height: 9px;
     width: 2px;
-    left: -5px;
+
+    height: 5%;
+    width: 5%;
+    left: -10px;
 }
 /* SIGN IN BUTTON *******************************************************************************************/
 .redButton {
@@ -50,15 +55,17 @@
     font-size: 1rem;
     width: 50px;
     float: right;
-    left: 500px;
+    
+    
 }
 .signInButton{
-    left: 1150px;
+    left: 1130%;
     position: relative;
     z-index: 7;
     display: inline;
-    top: -60px;
+    top: -43px;
     margin: auto;
+
 }
 .main-top{
     position: absolute;
