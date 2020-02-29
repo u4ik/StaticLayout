@@ -1,147 +1,375 @@
-html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #f3f3f3;
-    color: #333333;
-    font-size: 16px;
-    direction: ltr;
+/* MAIN BACKGROUND & PAGEFONT *******************************************************************************************/
+   body{
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-
-
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-
-html {
-    color: -internal-root-color;
-}
-
-
-.our-story-cards {
-    margin: 0 auto;
-    max-width: 1820px;
-}
-
-
-
-img {
-    max-width: 100%;
+    background-color: black;
     height: auto;
-    border: 0;
 }
-img {
-    border: 0;
-}
-
-img {
-    border: 0;
-}
-
-.our-story-card {
-    position: relative;
-    border-bottom: 8px solid #222;
-    padding: 50px 5%;
-    margin-bottom: 0;
-    background: transparent;
-    color: white;
-}
-
-.hero-card .our-story-card-text {
-    max-width: 950px;
-}
-
-.hero-card .our-story-card-text {
-    position: relative;
-    width: 100%;
-    padding: 75px 0;
-    max-width: 640px;
-    margin: 0 auto;
+/* FIRST PAGE WRAPPER'*******************************************************************************************/
+.showcase-content{
+    padding: 200px 45px 300px;
     text-align: center;
-    z-index: 1;
+    position: relative;
+    width: 100%; 
+    max-width: 640px; 
+    margin: 0 auto; */
+    text-align: center; */
+    z-index: 2;
+    top: 50px;
 }
-
-.our-story-card-subtitle, .our-story-card-text {
-    font-size: 1.625rem;
-    font-weight: normal;
+/* NETFLIX LOGO *******************************************************************************************/
+.nfLogo .svg-icon-netflix-logo {
+    padding-top: 0.7rem;
+    height: 43px;
+    width: 163px;
 }
-
-div {
-    display: block;
-}
-
-.screen-reader-text {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
-
-
 .nfLogo {
     fill: #e50914;
+    position: relative;
+    z-index: 3;
+    height: 9px;
+    width: 2px;
+    left: -5px;
+}
+/* SIGN IN BUTTON *******************************************************************************************/
+.redButton {
+    background-color: #e50914;
     line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 50px;
+    float: right;
+    left: 500px;
 }
-
-.screen-reader-text {
+.signInButton{
+    left: 1150px;
+    position: relative;
+    z-index: 7;
+    display: inline;
+    top: -60px;
+    margin: auto;
+}
+.main-top{
     position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
-
-
-.netflix-sans-font-loaded {
-    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-
-.our-story-header-wrapper {
-    background-color: transparent;
-    -webkit-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
-    -moz-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    position: relative;
-    max-width: 1920px;
-    margin: 0 auto;
-    padding-top: 20px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 5rem;
-    z-index: 10;
-}
-
-.nfLogo .svg-icon-netflix-logo {
-    height: 36px;
-    width: 134px;
-}
-
-.nfLogo .svg-icon-netflix-logo {
-    padding-top: 0.5rem;
-    height: 45px;
-    width: 167px;
-}
-
-.our-story-header-wrapper {
-    height: 45px;
-}
-
-
-.our-story-header {
-    position: relative;
-    margin: 0 3.5rem;
+    z-index: 3;
+    padding-top: 4px;
+    width: 100px;
+    margin: 1px 3.5rem;
     height: 100%;
 }
+.authLinks {
+    color: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+}
+/* FIRST LINES OF TEXT 'Unlimited movies, TV Shows, and more.'*******************************************************************************************/
+.firstText{
+    z-index: 5;
+    position: absolute;
+    text-align: center;
+    font-size: 3.125rem;
+    top: 50px;
+    max-width: 640px; 
+}
+h1{
+    color: white;
+    text-align: center;
+    z-index: 5;
+    position: relative;
+    margin-top: 50px;
+}
+/* SECOND LINES OF TEXT 'Watch anywhere. Cancel anytime.'*******************************************************************************************/
+.secondText{
+    z-index: 5;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    margin: 1rem auto;
+    max-width: 640px; 
+    font-weight: normal;
+}
+h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+/* THIRD LINES OF TEXT 'Ready to watch? Enter your email to create or access your account.'*******************************************************************************************/
+.email-form-title {
+    padding: 0 5%;
+    max-width: 450px;
+    margin: 0 auto;
+    font-weight: normal;
+}
+h3 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    max-width: 500px;
+}
+/* EMAIL TEXTBOX'*******************************************************************************************/
+.emailBox{
+    z-index: 10;
+    width: 650px;
+    height: 50px;
+    margin: 10px auto; 
+    border-color: transparent;
+    border-radius: 2px;
+    border-width: 2px;
+    margin-bottom: 25px;
+    max-width: 650;
+}
+.emailTextBox{
+    position: absolute;
+    z-index: 10;
+}
+/* TRY IT NOW BUTTON'*******************************************************************************************/
+.tryItNow{
+    background: red;
+    top: 50px;
+    height: 50px;
+    width: 220px;
+    height: 52px;
+    color: white
+    
+}
+.tryItNowPos{
+    top: 20px;
+    left: 450px;
+    position: absolute;
+   border: 2px solid red;
+    font-size: 1.7rem;
+    text-align: center;
+   border-radius: 2px;
+}
+.tryItNowText{
+   padding-top: 12px;
+   margin-top: auto;
+   font-size: 23px;
+}
+/* ARROW'*******************************************************************************************/
+.arrow{
+    top: .5px;
+    font-size: 2.4rem;
+    left: 185px;
+    position: absolute;
+    font-weight: thin;
+}
+/* HYPERLINK UNDERLINE REMOVAL'*******************************************************************************************/
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/* BACKGROUND IMAGE '*******************************************************************************************/
+.backgroundImage1 {
+    max-width: 100%;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+    margin: auto;
+    width: auto;
+    top: -100px;
+}
+/* GRADIENT EFFECT*******************************************************************************************/
+#gradientEffect{
+        z-index: 2;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7))), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+        background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -webkit-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+        background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -moz- oldradial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+        background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -o-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 736px;
+}
+/* GRAY THIN BARS'*******************************************************************************************/
+.grayThinBar{
+    z-index: 5;
+    position: absolute;
+    bottom: 66px;
+    background-color: rgba(128, 128, 128, 0.171);
+    width: 100%;
+    max-width: 100%;
+    max-height: 10px;
+    height: 10px;
+    left: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    display: inline-flex;
+}
+.grayThinBar2{
+    z-index: 8;
+    position: relative;
+    bottom: 10px;
+    top: 670px;
+    background-color: rgba(128, 128, 128, 0.171);
+   width: 3000px;
+     max-width: 1370px;
+    max-height: 10px;
+    height: 10px;
+    left: -30px;
+    right: 400px;
+}
+/* SECOND PAGE WRAPPER'*******************************************************************************************/
+.showcase-content2Wrapper{
+    position: relative;
+    margin-top: 160px;
+    left: auto;
+    right: auto;
+    /* width: 1338px; */
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+}
+/* LEFTSIDE TEXT'*******************************************************************************************/
+.showcaseItemText1{
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 130px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.showcaseItemText2{
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 450px;
+    padding-top: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+/* RIGHTSIDE TEXT'*******************************************************************************************/
+.showcaseItemText3{
+    text-align: right;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 340px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 510px;
+    padding-left: 600px;
+}
+.showcaseItemText4{
+    text-align: right;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 234px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 510px;
+    padding-top: 10px;
+}
+/* NETFLIX VIDEO LOOP'*******************************************************************************************/
+.showcaseMedia1{
+    position: absolute;
+    display: inline-block;
+    z-index: 6;
+    size: 20%;
+    bottom: 690px;
+    padding-left: 769px;
+}
+/* TV PNG OVERLAY'*******************************************************************************************/
+.showcaseMedia2{
+    position: absolute;
+    display: inline-block;
+    z-index: 6;
+    bottom: 600px;
+    padding-left: 710px;
+}
+/* STRANGER THINGS PHONE PNG'*******************************************************************************************/
+.showcaseMedia3{
+    position: absolute;
+    display: inline-block;
+    z-index: 6;
+    padding-left: 90px;
+    bottom: 50px;
+}
+/*  STRANGER THINGS DOWNLOADER '*******************************************************************************************/
+.greyButton{
+    z-index: 7;
+    position: absolute;
+    left: 340px;
+    bottom: 10%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: black;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
+    height: 73px;
+    min-width: 15em;
+    padding: 0.25em 0.65em;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    -webkit-box-shadow: 0 0 2em 0 #000000;
+    -moz-box-shadow: 0 0 2em 0 #000000;
+    box-shadow: 0 0 2em 0 #000000;
+    -webkit-border-radius: 0.75em;
+    -moz-border-radius: 0.75em;
+    border-radius: 0.75em;
+}
+/* STRANGER THINGS DOWNLOADER: TEXT/IMAGE'*******************************************************************************************/
+.greyButtonText1{
+    position: relative;
+    left: 65px;
+    color: white;
+    min-width: 135px;
+    z-index: 6;
+    top: -12px;
+    font-size: 1.05rem;
+    font-weight: thick;
+}
+.greyButtonText2{
+    position: relative;
+    left: -70px;
+    color: #0071eb;
+    z-index: 6;
+    top: 8px;
+    font-size: 1.05rem;
+    font-weight: thick;
+}
+.greyButtonImage{
+    right: 240px;
+    position: relative
+}
+.greyButtonImage2{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: 60px;
+    bottom: 30px;    
+} 
+/*END*******************************************************************************************************************
