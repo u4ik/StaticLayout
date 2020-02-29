@@ -1,12 +1,22 @@
-/* MAIN BACKGROUND & PAGEFONT *******************************************************************************************/
+#pageMargin{
+
+
+     margin: auto;
+     width: auto;
+    
+}
+
+
+/* PAGE BACKGROUND & PAGEFONT *******************************************************************************************/
    body{
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color: black;
     height: auto;
+    
 }
 /* FIRST PAGE WRAPPER'*******************************************************************************************/
-.showcase-content{
+.contentCardOne{
     padding: 200px 45px 300px;
     text-align: center;
     position: relative;
@@ -137,28 +147,32 @@ h3 {
     height: 52px;
     color: white
     
+    
 }
 .tryItNowPos{
     top: 20px;
     left: 450px;
     position: absolute;
-   border: 2px solid red;
+    border: 2px solid red;
     font-size: 1.7rem;
     text-align: center;
    border-radius: 2px;
+   z-index: 12;
 }
 .tryItNowText{
    padding-top: 12px;
    margin-top: auto;
    font-size: 23px;
+   z-index: 12;
 }
 /* ARROW'*******************************************************************************************/
 .arrow{
-    top: .5px;
+    top: -.7px;
     font-size: 2.4rem;
     left: 185px;
     position: absolute;
-    font-weight: thin;
+    font-weight: 200; 
+    
 }
 /* HYPERLINK UNDERLINE REMOVAL'*******************************************************************************************/
 a {
@@ -222,7 +236,7 @@ a {
     right: 400px;
 }
 /* SECOND PAGE WRAPPER'*******************************************************************************************/
-.showcase-content2Wrapper{
+.contentCardTwoWrap{
     position: relative;
     margin-top: 160px;
     left: auto;
@@ -256,7 +270,7 @@ a {
 }
 /* RIGHTSIDE TEXT'*******************************************************************************************/
 .showcaseItemText3{
-    text-align: right;
+    text-align: left;
     margin-left: 120px;
     margin-right: 120px;
     margin-top: auto;
@@ -269,7 +283,7 @@ a {
     padding-left: 600px;
 }
 .showcaseItemText4{
-    text-align: right;
+    text-align: left;
     margin-left: 120px;
     margin-right: 120px;
     margin-top: auto;
@@ -277,9 +291,10 @@ a {
     padding-left: 234px;
     color: white;
     font-size: 1.5rem;
-    font-weight: bold;
+    
     width: 510px;
     padding-top: 10px;
+    padding-left: 600px;
 }
 /* NETFLIX VIDEO LOOP'*******************************************************************************************/
 .showcaseMedia1{
