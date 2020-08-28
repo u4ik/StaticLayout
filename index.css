@@ -12,6 +12,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background-color: black;
     height: auto;
+    overflow-x: hidden;
 }
 
 
