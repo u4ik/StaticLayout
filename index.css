@@ -1,52 +1,42 @@
-#pageMargin{
-
-
-     margin: auto;
-     width: 100%;
-     max-width: 100%;
-     
-    
+#pageMargin {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
 }
 
 
 /* PAGE BACKGROUND & PAGEFONT *******************************************************************************************/
-   body{
+
+body {
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color: black;
     height: auto;
-    
 }
-/* FIRST PAGE WRAPPER'*******************************************************************************************/
-.contentCardOne{
-    padding: 200px 45px 300px;
-    text-align: center;
-    position: relative;
-    width: 100%; 
-    max-width: 640px; 
-    margin: 0 auto; */
-    text-align: center; */
-    z-index: 2;
-    top: 50px;
-}
+
+
 /* NETFLIX LOGO *******************************************************************************************/
+
 .nfLogo .svg-icon-netflix-logo {
     padding-top: 0.7rem;
     height: 132%;
     width: 132%;
 }
+
 .nfLogo {
     fill: #e50914;
     position: relative;
     z-index: 3;
     height: 9px;
     width: 2px;
-
     height: 5%;
     width: 5%;
     left: -10px;
 }
+
+
 /* SIGN IN BUTTON *******************************************************************************************/
+
 .redButton {
     background-color: #e50914;
     line-height: normal;
@@ -54,20 +44,19 @@
     font-weight: 400;
     font-size: 1rem;
     width: 50px;
-    float: right;
-    
-    
 }
-.signInButton{
-    left: 1130%;
+
+.signInButton {
+    left: 88vw;
     position: relative;
     z-index: 7;
-    display: inline;
-    top: -43px;
-    margin: auto;
-
+    /* display: inline; */
+    /* top: -43px; */
+    /* margin: auto; */
+    margin-top: -30%;
 }
-.main-top{
+
+.main-top {
     position: absolute;
     z-index: 3;
     padding-top: 4px;
@@ -75,6 +64,11 @@
     margin: 1px 3.5rem;
     height: 100%;
 }
+
+.topBarWrapper {
+    margin-bottom: -4%;
+}
+
 .authLinks {
     color: #ffffff;
     -webkit-border-radius: 3px;
@@ -82,45 +76,58 @@
     border-radius: 3px;
     margin-top: 0.5rem;
 }
+
+
 /* FIRST LINES OF TEXT 'Unlimited movies, TV Shows, and more.'*******************************************************************************************/
-.firstText{
+
+.firstText {
     z-index: 5;
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     font-size: 3.125rem;
     top: 50px;
-    max-width: 640px; 
+    max-width: 640px;
+    margin-bottom: 10%;
 }
-h1{
+
+h1 {
     color: white;
     text-align: center;
     z-index: 5;
     position: relative;
     margin-top: 50px;
 }
+
+
 /* SECOND LINES OF TEXT 'Watch anywhere. Cancel anytime.'*******************************************************************************************/
-.secondText{
+
+.secondText {
     z-index: 5;
     position: relative;
     text-align: center;
     top: 5px;
     margin: 1rem auto;
-    max-width: 640px; 
+    max-width: 640px;
     font-weight: normal;
 }
-h2{
+
+h2 {
     color: white;
     text-align: center;
     position: relative;
     z-index: 3;
 }
+
+
 /* THIRD LINES OF TEXT 'Ready to watch? Enter your email to create or access your account.'*******************************************************************************************/
+
 .email-form-title {
     padding: 0 5%;
     max-width: 450px;
     margin: 0 auto;
     font-weight: normal;
 }
+
 h3 {
     font-size: 18px;
     color: white;
@@ -129,133 +136,187 @@ h3 {
     position: relative;
     max-width: 500px;
 }
+
+
 /* EMAIL TEXTBOX'*******************************************************************************************/
-.emailBox{
+
+.emailBox {
     z-index: 10;
     width: 650px;
     height: 50px;
-    margin: 10px auto; 
+    margin: 10px auto;
     border-color: transparent;
     border-radius: 2px;
     border-width: 2px;
     margin-bottom: 25px;
     max-width: 650;
 }
-.emailTextBox{
+
+.emailTextBox {
     position: absolute;
     z-index: 10;
 }
+
+
+/* FIRST PAGE WRAPPER'*******************************************************************************************/
+
+#contentCardOneWrap {
+    margin-bottom: 25%;
+}
+
+.contentCardOne {
+    /* padding: 200px 45px 300px; */
+    padding-top: 2%;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+    max-width: 640px;
+    /* margin: 0 auto; */
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+
 /* TRY IT NOW BUTTON'*******************************************************************************************/
-.tryItNow{
+
+.tryItNow {
     background: red;
     top: 50px;
     height: 50px;
     width: 220px;
     height: 52px;
     color: white
-    
-    
 }
-.tryItNowPos{
+
+.tryItNowPos {
     top: 20px;
     left: 450px;
     position: absolute;
     border: 2px solid red;
     font-size: 1.7rem;
     text-align: center;
-   border-radius: 2px;
-   z-index: 12;
+    border-radius: 2px;
+    z-index: 12;
 }
-.tryItNowText{
-   padding-top: 12px;
-   margin-top: auto;
-   font-size: 23px;
-   z-index: 12;
+
+.tryItNowText {
+    padding-top: 12px;
+    margin-top: auto;
+    font-size: 23px;
+    z-index: 12;
 }
+
+
 /* ARROW'*******************************************************************************************/
-.arrow{
+
+.arrow {
     top: -.7px;
     font-size: 2.4rem;
     left: 185px;
     position: absolute;
-    font-weight: 200; 
-    
+    font-weight: 200;
 }
+
+
 /* HYPERLINK UNDERLINE REMOVAL'*******************************************************************************************/
+
 a {
     color: #fff;
     text-decoration: none;
 }
+
+
 /* BACKGROUND IMAGE '*******************************************************************************************/
+
 .backgroundImage1 {
-    max-width: 100%;
+    min-width: 99vw;
     z-index: 0;
     position: absolute;
     left: 0;
-    right: 0px;
+    height: 86vh;
+    /* right: 0px; */
     bottom: 0;
-    margin: auto;
-    width: auto;
+    /* margin: auto; */
+    /* width: auto; */
     top: -100px;
+    background-size: cover;
 }
+
+
 /* GRADIENT EFFECT*******************************************************************************************/
-#gradientEffect{
-        z-index: 2;
-        position: absolute;
-        background: rgba(0, 0, 0, 0.5);
-        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7))), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
-        background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -webkit-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
-        background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -moz- oldradial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
-        background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -o-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        height: 736px;
-}
-/* GRAY THIN BARS'*******************************************************************************************/
-.grayThinBar{
-    z-index: 5;
+
+#gradientEffect {
+    z-index: 2;
     position: absolute;
-    bottom: 66px;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7))), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -webkit-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+    background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -moz- oldradial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), -o-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 736px;
+}
+
+
+/* GRAY THIN BARS'*******************************************************************************************/
+
+.grayThinBar {
+    z-index: 8;
+    position: absolute;
+    bottom: 23.7%;
     background-color: rgba(128, 128, 128, 0.171);
     width: 100%;
     max-width: 100%;
     max-height: 10px;
     height: 10px;
     left: 0px;
-    margin-left:auto;
-    margin-right:auto;
-    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline-flex; */
 }
-.grayThinBar2{
+
+.grayThinBar2 {
     z-index: 8;
-    position: relative;
-    bottom: 10px;
-    top: 670px;
+    position: absolute;
+    top: 45%;
     background-color: rgba(128, 128, 128, 0.171);
-   width: 3000px;
-     max-width: 1370px;
+    min-width: 100vw;
     max-height: 10px;
     height: 10px;
     left: -30px;
     right: 400px;
 }
+
+
 /* SECOND PAGE WRAPPER'*******************************************************************************************/
-.contentCardTwoWrap{
+
+.contentCardTwoWrap {
     position: relative;
     margin-top: 160px;
-    left: auto;
-    right: auto;
+    /* left: auto;
+    right: auto; */
     /* width: 1338px; */
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100vw;
+    padding-left: 12%;
+    padding-right: 12%;
     height: 1000px;
+    background-color: black;
 }
+
+.contentCardTwo {
+    background-color: black;
+}
+
+
 /* LEFTSIDE TEXT'*******************************************************************************************/
-.showcaseItemText1{
+
+.showcaseItemText1 {
     text-align: left;
     margin-left: 120px;
     margin-right: 120px;
@@ -266,7 +327,8 @@ a {
     font-size: 3rem;
     font-weight: bold;
 }
-.showcaseItemText2{
+
+.showcaseItemText2 {
     text-align: left;
     margin-left: 120px;
     margin-right: 120px;
@@ -275,8 +337,11 @@ a {
     color: white;
     font-size: 1.5rem;
 }
+
+
 /* RIGHTSIDE TEXT'*******************************************************************************************/
-.showcaseItemText3{
+
+.showcaseItemText3 {
     text-align: left;
     margin-left: 120px;
     margin-right: 120px;
@@ -289,7 +354,8 @@ a {
     width: 510px;
     padding-left: 600px;
 }
-.showcaseItemText4{
+
+.showcaseItemText4 {
     text-align: left;
     margin-left: 120px;
     margin-right: 120px;
@@ -298,13 +364,15 @@ a {
     padding-left: 234px;
     color: white;
     font-size: 1.5rem;
-    
     width: 510px;
     padding-top: 10px;
     padding-left: 600px;
 }
+
+
 /* NETFLIX VIDEO LOOP'*******************************************************************************************/
-.showcaseMedia1{
+
+.showcaseMedia1 {
     position: absolute;
     display: inline-block;
     z-index: 6;
@@ -312,24 +380,33 @@ a {
     bottom: 690px;
     padding-left: 769px;
 }
+
+
 /* TV PNG OVERLAY'*******************************************************************************************/
-.showcaseMedia2{
+
+.showcaseMedia2 {
     position: absolute;
     display: inline-block;
     z-index: 6;
     bottom: 600px;
     padding-left: 710px;
 }
+
+
 /* STRANGER THINGS PHONE PNG'*******************************************************************************************/
-.showcaseMedia3{
+
+.showcaseMedia3 {
     position: absolute;
     display: inline-block;
     z-index: 6;
     padding-left: 90px;
     bottom: 50px;
 }
+
+
 /*  STRANGER THINGS DOWNLOADER '*******************************************************************************************/
-.greyButton{
+
+.greyButton {
     z-index: 7;
     position: absolute;
     left: 340px;
@@ -363,8 +440,11 @@ a {
     -moz-border-radius: 0.75em;
     border-radius: 0.75em;
 }
+
+
 /* STRANGER THINGS DOWNLOADER: TEXT/IMAGE'*******************************************************************************************/
-.greyButtonText1{
+
+.greyButtonText1 {
     position: relative;
     left: 65px;
     color: white;
@@ -374,7 +454,8 @@ a {
     font-size: 1.05rem;
     font-weight: thick;
 }
-.greyButtonText2{
+
+.greyButtonText2 {
     position: relative;
     left: -70px;
     color: #0071eb;
@@ -383,15 +464,19 @@ a {
     font-size: 1.05rem;
     font-weight: thick;
 }
-.greyButtonImage{
+
+.greyButtonImage {
     right: 240px;
     position: relative
 }
-.greyButtonImage2{
+
+.greyButtonImage2 {
     position: relative;
     width: 10px;
     height: 10px;
     right: 60px;
-    bottom: 30px;    
-} 
+    bottom: 30px;
+}
+
+
 /*END*******************************************************************************************************************
